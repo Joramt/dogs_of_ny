@@ -59,12 +59,14 @@ This will install every needed dependencies into your virtual environnement.
 ## Run the Tornado server
 
  ``` console
+cd ~/dogs_of_ny
 python3 main.py
 ```  
 
 At your convenience, you can also pass a `--port`option. It will use the port `5000`by default
 
  ``` console
+cd ~/dogs_of_ny
 python3 main.py --port=5055
 ```
   
