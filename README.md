@@ -17,6 +17,7 @@ example of response : `{"count": 593}`
 
 Download the base code by running the command below or via my [github repository ](https://github.com/Joramt/dogs_of_ny)
  ``` console
+cd ~
 git clone git@github.com:Joramt/dogs_of_ny.git
 cd dogs_of_ny
 git pull origin master
@@ -50,6 +51,7 @@ Note : your python version might differ
 
 Making sure that you're in the `dogs_of_ny` folder, that you've created and activated your virtual environnement, run the following command :
  ``` console
+cd ~/dogs_of_ny
 sudo pip install -r requirements.txt
 ```  
 This will install every needed dependencies into your virtual environnement.
@@ -69,7 +71,7 @@ python3 main.py --port=5055
 ## Run the test
 
  ``` console
-cd test 
+cd ~/test 
 READY_TEST_BASE_URL=http://localhost:5000 python3 apitest.py
 ```  
 
@@ -79,8 +81,7 @@ Note : Make sure to use the same port that you used when running the Tornado ser
 
  ``` console
 deactivate 
-rmvirtualenv jorelamthor_testingenv
-cd ..
+cd ~
 sudo rm -rf dogs_of_ny
 ```  
 
