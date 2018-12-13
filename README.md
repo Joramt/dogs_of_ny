@@ -75,7 +75,7 @@ python3 main.py --port=5055
 ## Run the test
 
  ``` console
-cd ~/test 
+cd ~/dogs_of_ny/test 
 READY_TEST_BASE_URL=http://localhost:5000 python3 apitest.py
 ```  
 
