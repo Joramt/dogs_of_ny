@@ -98,7 +98,7 @@ Using my previous knowledge and experience of AWS, this probably would have been
 - Making it [WSGI compliant](http://www.tornadoweb.org/en/stable/wsgi.html) in order to deploy it in Amazon Beanstalk ( who only uses WSGI for serving Python Web apps )
 - Renaming the `main.py` file to `application.py` so Amazon Beanstalk would be [able to start it](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/python-development-environment.html#python-common-configuring).
 - Adding [Supervisor](http://supervisord.org/) to monitor process and performance via SSH
-- 
+
 # Notes
 
 This project follow the pep8 coding style conventions
