@@ -41,7 +41,7 @@ python3 -m virtualenv jorelamthor_testingenv
 ```  
 - Activate the newly created virtual environnement
  ``` console
-source env/bin/activate
+source jorelamthor_testingenv/bin/activate
 ```  
 
 Note : your python version might differ
