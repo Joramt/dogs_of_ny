@@ -38,10 +38,12 @@ python3 -m pip install --user virtualenv
 
 - Create your virtual env 
  ``` console
+cd ~/dogs_of_ny
 python3 -m virtualenv jorelamthor_testingenv
 ```  
 - Activate the newly created virtual environnement
  ``` console
+cd ~/dogs_of_ny
 source jorelamthor_testingenv/bin/activate
 ```  
 
