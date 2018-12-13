@@ -11,7 +11,7 @@ from lib.tool.query_helper import QueryHelper
 
 class MainHandler(tornado.web.RequestHandler):
     def get(self):
-        self.write("Everything is up and running !" +
+        self.write("Everything is up and running ! " +
                    "Now go to the <code>/count</code> endpoint")
 
 
